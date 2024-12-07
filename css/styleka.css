@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    background-color: rgb(173, 174, 185);
+}
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: brown;
+}
+
+.header-h1 {
+    font-size: 30px;
+    font-weight:400;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.header-nav {
+    font-size: 20px;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-li {
+    margin-left: 1em;
+}
+
+#ha {
+    text-decoration: none;
+    color: black;
+}
+
+#ha:hover {
+    color: rgb(216, 209, 209);
+    text-shadow: 1px 1px 1px black;
+}
+
+#ha:active {
+    color: #484343;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    min-height: 850px;
+}
+
+.main-h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div2 {
+    background-color: #eaeaea;
+    width: 30%;
+    text-align: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.main-img {
+    width: 90%;
+    margin: 1em auto 1em auto;
+    display: block;
+}
+
+#aa {
+    padding-bottom: 1em;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+#aa:hover {
+    color: rgb(216, 209, 209);
+    text-shadow: 1px 1px 1px black;
+}
+
+#aa:active {
+    color: #484343;
+}
+
+.section1-h12 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#a2 {
+    text-decoration: none;
+}
+
+.btn {
+    width: 95%;
+    margin: 0 auto 0.5em auto;
+    background-color:brown;
+    color: #f8f8f8;
+    height: 25px;
+    font-size: 17px;
+    border: none;
+    display: block;
+}
+
+.btn:hover {
+    background-color: rgb(161, 125, 125);
+}
+
+.btn:active {
+    background-color: rgb(216, 209, 209);
+}
+
+.section1-div3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section1-p21 {
+    padding-bottom: 0.5em;
+}
+
+.section1-h2 {
+    font-size: 16px;
+}
+
+.section1-p2 {
+    padding-left: 0.5em;
+    color: #545454;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding-top: 0.5em;
+    height: 20px;
+    background-color: rgb(173, 174, 185);
+    min-height: 68px;
+    max-height: 68px;
+}
+
+.footer-p{
+    text-align: right;
+    margin-right: 0.5em;
+   
+}
